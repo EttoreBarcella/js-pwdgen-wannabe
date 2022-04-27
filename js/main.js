@@ -5,3 +5,5 @@ const surname = prompt("Inserisci il tuo cognome");
 // poi chiedi il suo colore preferito
 const favColor = prompt("Inserisci il tuo colore preferito");
 // Infine scrivi sulla pagina nomecognomecolorepreferito21
+const password = document.writeln(`${name}${surname}${favColor}21`);
+console.log(password);
